@@ -1,5 +1,4 @@
-package Linkedlist.L001;
-
+package L002.copy;
 public class Main {
 //public static class Person
 //{
@@ -53,7 +52,6 @@ public class Main {
 	                Node nbr = this.head.next;
 	                this.head.next = null;
 	                this.head = nbr;
-	            	//head=head.next;
 	                this.size--;
 	            }
 	        }
@@ -225,20 +223,20 @@ public class Main {
 	    ll.addlast(56);
 	    ll.addlast(23);
 //	    System.out.println(ll);
-	    ll.display();
-	    ll.removeFirst();
+//	    ll.display();
+//	    ll.removeFirst();
 //	    ll.display();
 //	    System.out.println(ll.getfirst());
 //	    System.out.println(ll.getlast());
 //	    System.out.println(ll.getat(1));
-//	    ll.addfirst(876);
-//	    //ll.removelast();
-//	    ll.display();
-        //ll.removeat(1);
- 	    ll.display();
-//	    ll.addat(1, 34);
-//	    ll.display();
-//	    
+	    ll.addfirst(876);
+	    //ll.removelast();
+	    ll.display();
+	    //ll.removeat(1);
+	    ll.display();
+	    ll.addat(1, 34);
+	    ll.display();
+	    
 
 
 
@@ -250,3 +248,4 @@ public class Main {
     }
 
 }
+
